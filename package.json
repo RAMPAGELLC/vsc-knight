@@ -2,7 +2,7 @@
   "name": "vsc-knight",
   "displayName": "Knight VSC Extension",
   "description": "A Visual Studio Code utility extension for the Roblox game framework Knight, by RAMPAGE Interactive.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "MetaGames",
   "engines": {
     "vscode": "^1.75.0"
