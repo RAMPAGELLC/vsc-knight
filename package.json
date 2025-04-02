@@ -1,0 +1,35 @@
+{
+  "name": "vsc-knight",
+  "displayName": "Knight VSC Extension",
+  "version": "1.0.0",
+  "publisher": "MetaGames",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "main": "extension.js",
+  "activationEvents": [
+    "onCommand:extension.replaceScript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RAMPAGELLC/vsc-knight"
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.replaceScript",
+        "title": "Replace Script Content"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "extension.replaceScript",
+        "key": "ctrl+k",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "dependencies": {
+    "@vscode/vsce": "^3.3.2"
+  }
+}
