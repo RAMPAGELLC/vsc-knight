@@ -3,14 +3,14 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local KNIGHT_TYPES = require(ReplicatedStorage:WaitForChild("KNIGHT_TYPES"))
 
-local KnightClass = {} :: KNIGHT_TYPES.KnightClass
+local <filename> = {} :: KNIGHT_TYPES.KnightClass
 
-function KnightClass:Init()
+function <filename>:Init()
     return
 end
 
-function KnightClass:Start()
+function <filename>:Start()
     return
 end
 
-return KnightClass
+return <filename>
